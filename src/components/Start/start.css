@@ -1,0 +1,63 @@
+.start {
+  height: 90vh;
+  background-image: url("../../images/background-hero.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start__options {
+  list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .start__options {
+    padding: 0;
+  }
+}
+
+.start__option {
+  color: #fff;
+  background-color: #000;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.start__option:hover {
+  font-weight: 600;
+}
+
+.start__copyright {
+  font-size: 17px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .start__copyright {
+    font-size: 13px;
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=start.css.map */

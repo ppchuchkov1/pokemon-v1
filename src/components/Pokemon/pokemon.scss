@@ -1,0 +1,22 @@
+.pokemon {
+  display: flex;
+  justify-content: center;
+
+  &__img {
+    width: 250px;
+  }
+  &__hint-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+  }
+  &__hint-icon {
+    height: 100%;
+    width: 30px;
+  }
+}
+
+.howToPlay-options {
+  padding: 20px;
+}

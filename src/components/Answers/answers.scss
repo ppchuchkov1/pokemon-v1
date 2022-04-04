@@ -1,0 +1,35 @@
+.answers {
+  display: flex;
+  justify-content: center;
+
+  &__list {
+    list-style: none;
+  }
+  @media only screen and (max-width: 600px) {
+    &__list {
+      padding: 0;
+    }
+  }
+  &__button {
+    color: #fff;
+    display: inline-block;
+    background-color: #000;
+    width: 180px;
+    height: 60px;
+    margin: 20px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 600px) {
+    &__button {
+      display: block;
+    }
+  }
+  &__button:hover {
+    font-weight: 600;
+  }
+}

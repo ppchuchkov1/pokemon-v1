@@ -1,0 +1,71 @@
+.pokemon-list {
+  background-image: url("../../images/background-hero.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pokemon-list__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+.pokemon-list__form input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.pokemon-list__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pokemon-list__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.pokemon-list__stats {
+  padding: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.pokemon-list__stats-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.pokemon-list__image {
+  width: 350px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .pokemon-list__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=pokemonList.css.map */

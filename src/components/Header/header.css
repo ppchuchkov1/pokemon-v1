@@ -1,0 +1,39 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px;
+  background-image: url("../../images/background-hero.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar__logo {
+  width: 150px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar__logo {
+    width: 100px;
+    height: 100%;
+  }
+}
+
+.navbar__indicator {
+  display: inline-block;
+}
+
+.navbar__indicator-img {
+  width: 40px;
+}
+
+.navbar__indicator-number {
+  font-size: 22px;
+  font-family: 'Press Start 2P', cursive;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,51 @@
+.pokemon-list {
+  background-image: url('../../images/background-hero.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__form {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  &__form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+    &__info {
+      flex-direction: column;
+    }
+  }
+  &__stats {
+    padding: 50px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  &__stats-card {
+    display: flex;
+    background-color: #000;
+    color: aliceblue;
+    padding: 20px;
+  }
+  &__image {
+    width: 350px;
+    height: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+    &__image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

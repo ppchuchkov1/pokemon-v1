@@ -1,0 +1,33 @@
+.pokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pokemon__img {
+  width: 250px;
+}
+
+.pokemon__hint-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+}
+
+.pokemon__hint-icon {
+  height: 100%;
+  width: 30px;
+}
+
+.howToPlay-options {
+  padding: 20px;
+}
+/*# sourceMappingURL=pokemon.css.map */

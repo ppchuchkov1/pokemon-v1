@@ -1,0 +1,47 @@
+.start {
+  height: 90vh;
+  background-image: url('../../images/background-hero.jpg');
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__options {
+    list-style: none;
+  }
+  @media only screen and (max-width: 600px) {
+    &__options {
+      padding: 0;
+    }
+  }
+  &__option {
+    color: #fff;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+  &__option:hover {
+    font-weight: 600;
+  }
+  &__copyright {
+    font-size: 17px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+  }
+  @media only screen and (max-width: 600px) {
+    &__copyright {
+      font-size: 13px;
+      padding: 20px;
+    }
+  }
+}

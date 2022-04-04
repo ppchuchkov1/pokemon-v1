@@ -1,0 +1,8 @@
+.easy {
+  height: 90vh;
+  background-image: url("../../images/background-hero.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=game.css.map */
